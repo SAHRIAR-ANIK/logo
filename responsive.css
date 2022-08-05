@@ -1,0 +1,108 @@
+
+@media (max-width:1200px){
+
+.second-df{flex-direction: column;}
+
+.second-left{width: 100%;}
+
+.second-right{width: 100%;}
+
+.second-left p{width: 100%; font-size: 16px; text-align: justify;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:781px) {
+ 
+.top-right{display: none;}  
+
+.bar{display:block;}
+
+.third-df{flex-direction: column; margin-bottom: 20px;}
+
+.third-item{width: 100%; margin-bottom: 30px;}
+
+.third-item img{margin-bottom: 20px;}
+
+.third h1{font-size: 40px; margin-bottom: 40px;}
+
+.third h1:after{width: 280px;}
+
+.second-left h1{font-size: 45px;}
+
+.forth-df{flex-direction: column;}
+
+.forth-item{width: 100%;}
+
+.forth-item p{margin-bottom: 15px; font-size: 17px;}
+
+.forth-item p::before{left: -10px;}
+
+.forth-item h2{font-size: 25px;}
+
+.forth h1:after{width: 300px;}
+
+.forth h1{font-size: 35px; margin-bottom: 40px;}
+
+.forth-item img{margin-top: 30px;}
+
+.fifth h1{font-size: 40px; line-height: 50px;}
+
+.six-df{flex-direction: column;}
+
+.six-left{width: 100%; margin-bottom: 30px;}
+
+.six-midle{width: 100%; margin-bottom: 30px;}
+
+.six-right{width: 100%;}
+
+.six-midle h4{font-size: 35px;}
+
+.six-right h4{font-size: 35px;}
+
+
+
+
+
+
+
+
+
+
+}

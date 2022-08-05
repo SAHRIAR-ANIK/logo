@@ -1,0 +1,191 @@
+*{margin: 0; padding: 0;}
+
+body{font-family: sans-serif;}
+
+html{scroll-behavior: smooth;}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+img{max-width: 100%; height: auto;}
+
+.contaner{padding: 0 4%;}
+
+button{border: 0;}
+
+html::-webkit-scrollbar{width: 0.7rem; background-color:#eee; }
+
+html::-webkit-scrollbar-thumb{background:linear-gradient(to bottom, #a517ba,#5f1782); border-radius: 16px;}
+
+
+/* TOP SECTION START */
+
+.top{padding: 10px 0; background-image: linear-gradient(to right, #a517ba,#5f1782); position: sticky; top: 0;
+
+z-index: 1000;}
+
+.top-df{display: flex; align-items: center; justify-content: space-between;}
+
+.top-left img{width: 160px;}
+
+.top-right a{color: #fff; font-weight: 400; font-size: 17px; padding: 0 10px;}
+
+/* TOP SECTION END */
+
+
+
+
+/* SECOND SECTION START */
+
+.second{padding: 60px 0; background-image: linear-gradient(to right, #a517ba,#5f1782);}
+
+.second-df{display: flex; justify-content: center; align-items: center;}
+
+.second-left{width: 50%; color: #fff;}
+
+.second-right{width: 40%;}
+
+.second-right img{width:100%;}
+
+.df{display: flex; align-items: center;}
+
+.df img{width: 60px; margin-right: 20px;}
+
+.df span{font-size: 18px;}
+
+.second-left h1{font-size: 50px; font-weight: bold; margin-bottom: 30px;}
+
+.second-left p{font-size: 18px; width: 675px; margin-bottom: 30px;}
+
+.abc{background-image: linear-gradient(to right, #a517ba,#5f1782); width: 100%;}
+
+.bar{display: none;}
+
+.bar i{color: #fff; font-size: 25px;}
+
+/* SECOND SECTION END */
+
+
+/* THIRD SECTION START */
+
+.third{padding: 60px 0;}
+
+.third h1{text-align: center; font-size: 50px; font-weight: 500; letter-spacing: 3px; margin-bottom: 100px;}
+
+.third h1:after{content: ''; display: block; width: 350px; height: 8px; 
+
+background: linear-gradient(to right, #a517ba,#5f1782); margin: auto; border-radius: 16px;}
+
+.third-df{display: flex; justify-content: space-evenly; margin-bottom: 50px;}
+
+.third-item{width: 28%; text-align: center;}
+
+.third-item img{margin-bottom: 45px; width: 100px; height: 100px;}
+
+.third-item h3{font-weight:600; letter-spacing: 2px; margin-bottom: 20px;}
+
+.cen button{text-align: center; border-radius: 1000px; padding: 10px 30px; 
+    
+background: linear-gradient(to right, #a517ba,#5f1782); color:#fff;}
+
+.cen{text-align: center;}
+
+/* THIRD SECTION END */
+
+
+
+/* FORTH SECTION START */
+
+.forth{padding: 60px 0; background-color: #f8f9fa;}
+
+.forth h1{text-align: center; font-size: 50px; font-weight: 500; margin-bottom: 100px;}
+
+.forth h1:after{content: ''; display: block; width: 450px; height: 8px; background: linear-gradient(to right, #a517ba,#5f1782);
+
+margin: auto; border-radius: 16px; margin-top: 10px;}
+
+.forth-df{display: flex; justify-content: space-evenly; align-items: center;}
+
+.forth-item{width: 40%;}
+
+.forth-item img{width: 100%;}
+
+.forth-item h2{font-weight: 600; font-size: 45px; margin-bottom: 30px;}
+
+.forth-item p{font-size: 20px; position: relative; }
+
+.forth-item p::before{content: ''; display: block; width: 7px; height: 7px; border-radius: 50%;
+
+background-color:#000; left: -20px; top: 10px; position: absolute;}
+
+/* FORTH SECTION END */
+
+
+
+/*FIFTH SECTION START*/
+
+.fifth{padding: 80px 0;}
+
+.fifth h1{text-align: center; font-weight: 500; margin-bottom: 50px;}
+
+.df-2{display: flex; justify-content: center; flex-flow: wrap;}
+
+.df-2 img{width: 100px; transition: .4s;}
+
+.df-2 img:hover{transform: translateY(-10px); cursor: pointer;}
+
+/*FIFTH SECTION END */
+
+
+
+
+/*SIX SECTION START*/
+
+.six{background-image: linear-gradient(to right, #a517ba,#5f1782); padding: 80px 0; color: #fff;}
+
+.six-df{display: flex; justify-content: space-evenly;}
+
+.six-left{width: 30%;}
+
+.six-midle{width: 30%;}
+
+.six-right{width: 20%;}
+
+.six-left img{width: 150px; margin-bottom: 30px;}
+
+.six-midle h4{font-weight: bold; margin-bottom: 30px;}
+
+.six-right h4{font-weight: bold; margin-bottom: 30px;}
+
+.df-3{display: flex; align-items: center; margin-bottom: 20px;}
+
+.df-3 i{background:linear-gradient(to right, #a517ba,#5f1782); width: 40px; height: 40px; line-height: 40px; text-align: center; font-size: 20px; margin-right: 15px;}
+
+.six-right input{width: 80%; margin-bottom: 30px; padding: 7px 10px;}
+
+.six-right input:focus{outline: 0;}
+
+.six-right button{background:linear-gradient(to right, #a517ba,#5f1782); color: #fff; padding: 10px 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SIX SECTION END */
+
+
+
